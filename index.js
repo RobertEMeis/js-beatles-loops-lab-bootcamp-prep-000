@@ -33,9 +33,11 @@ function iLoveTheBeatles(n) {
 
   var newArray = [];
 
-  for (var i = 0; i <= n; i++) {
+  do {
 
-    newArray.push('I love the Beatles!');
-  }
+    newArray.push('I love the Beatles!'); 
+    n++
+  } while (i >= 0)
+    
   return newArray;
 }
