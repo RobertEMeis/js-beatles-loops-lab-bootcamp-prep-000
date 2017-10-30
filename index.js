@@ -12,3 +12,17 @@ for (var i = 0; i <musicians.length; i++) {
 
 return newArray;
 }
+
+
+function johnLennonFacts(array) {
+
+  var newArray = [];
+  var i = 0;
+
+  while (i < array.length) {
+    var facts = array[i];
+
+    newArray.push(facts + "!!!");
+  }
+  return newArray;
+}
