@@ -35,7 +35,7 @@ function iLoveTheBeatles(n) {
 
   for (var i = 0; i <= n; i++) {
 
-    newArray.push('I love the Beatlesasdfas!')
+    newArray.push('I love the Beatles!')
   }
   return newArray;
 }
